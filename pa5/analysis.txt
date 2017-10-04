@@ -1,0 +1,22 @@
+Place your empirical analysis here.
+
+java PQExperiment 10
+BinaryHeap took = 0.929082ms
+OrderedArray took = 0.854462ms
+java PQExperiment 100
+BinaryHeap took = 2.588344ms
+OrderedArray took = 1.796322ms
+java PQExperiment 1000
+BinaryHeap took = 6.163586ms
+OrderedArray took = 8.281216ms
+java PQExperiment 10000
+BinaryHeap took = 12.213299ms
+OrderedArray took = 67.316318ms
+java PQExperiment 100000
+BinaryHeap took = 59.640412ms
+OrderedArray took = 6429.839221ms
+java PQExperiment 1000000
+BinaryHeap took = 356.644247ms
+OrderedArray took = 885770.855234ms
+
+It is clear the ordered array is faster than the binary heap for small n. But as the value of n increases and reaches thousand and beyond, the binary heap is faster than the ordered array.

@@ -1,0 +1,22 @@
+Place your empirical analysis here.
+
+java MergeSort 1000000
+Is sorted? true
+Time=210.775402ms
+java MergeSort 2000000
+Is sorted? true
+Time=410.955367ms
+java MergeSort 4000000
+Is sorted? true
+Time=806.348269ms
+java MergeSort 8000000
+Is sorted? true
+Time=1629.081989ms
+java MergeSort 16000000
+Is sorted? true
+Time=3429.088003ms
+java MergeSort 32000000
+Is sorted? true
+Time=7159.122857ms
+
+The asymptotic running time is somewhere between O(n) and O(nlogn).  This can be seen in the results as doubling the input results in approximately doubles the time required for the execution of the merge sort program( OR algorithm). This implies that the ratio T(2N)/T(N) is almost equal to 2.
